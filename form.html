@@ -14,39 +14,38 @@
         <nav>
             <a href="index.html">Back to main page</a>
         </nav>
-        <article>
             <section>
                 <form method="POST" action="https://formspree.io/dykakh@gmail.com">
                    <fieldset>
                        <legend>Personal information:</legend>
                        <label for="name">Name:</label><br>
                        <input type="text" name="name" id="name" placeholder="Name" required><br>
-                       <laber for="user-age">Your age:</laber><br>
-                       <input type="number" name="age" min="16" max="99" value="21" required><br>
-                       <label for="gender">Gender:</label><br>
-                       <input type="radio" name="gender" id="gender" value="male" checked required>Male<br>
-                       <input type="radio" name="gender" id="gender" value="female" required>Female<br>
+                       <label for="user-age">Your age:</label><br>
+                       <input type="number" name="age" min="16" max="99" value="21" id="user-age" required><br>
+                       Gender:<br>
+                       <label for="male"></label>
+                       <input type="radio" name="gender" id="male" value="male">Male<br>
+                       <label for="female"></label>
+                       <input type="radio" name="gender" id="female" value="female">Female<br>
                        <label for="email">Email:</label><br>
                        <input type="email" name="email" id="email" placeholder="Email" required><br>
                     </fieldset>
                     <fieldset>
                         <legend>About the celebration:</legend>
                         <label for="date">When would you like to celebrate?</label><br>
-                        <select name="date" id="date" required>
+                        <select name="date" id="date">
                             <option value="29.10.2017">29.10.2016</option>
                             <option value="30.10.2017">30.10.2016</option>
                             <option value="31.10.2017">31.10.2016</option>
                         </select><br>
-                        <label for="costumes">Will you come to the party in scary costumes?</label><br>
-                        <input type="radio" name="costumes" id="costumes" value="yes">Yes<br>
-                        <input type="radio" name="costumes" id="costumes" value="no">No<br>
-                        <label for="alcohol">Will you drink alcohol at the party?</label><br>
-                        <input type="radio" name="alcohol" id="alcohol" value="yes">Yes<br>
-                        <input type="radio" name="alcohol" id="alcohol" value="no" checked>No<br>
-                        <input type="radio" name="alcohol" id="alcohol" value="maybe">Maybe<br>
-                        <label for="music">Which kind of music would you like to listen?</label><br>
+                        Will you come to the party in scary costumes?<br>
+                        <label for="yes"></label>
+                        <input type="radio" name="costumes" id="yes" value="yes">Yes<br>
+                        <label for="no"></label>
+                        <input type="radio" name="costumes" id="no" value="no">No<br>
+                        Which kind of music would you like to listen?<br>
                         <input type="checkbox" name="music" value="alternative music">Alternative Music<br>
-                        <input type="checkbox" name="music" value="dance music" checked>Dance Music<br>
+                        <input type="checkbox" name="music" value="dance music" checked>Dance Musigitc<br>
                         <input type="checkbox" name="music" value="electronic music">Electronic Music<br>
                         <input type="checkbox" name="music" value="hip hop / rap">Hip Hop / Rap<br>
                         <input type="checkbox" name="music" value="pop">Pop<br>
@@ -61,8 +60,6 @@
                 </form>
                 <h2>Thank's for your time! =)</h2>
             </section>
-            
-        </article>
         
 
     </body>
